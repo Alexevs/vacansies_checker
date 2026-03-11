@@ -8377,5 +8377,43 @@
     "Выход_токенов": 0,
     "Время_генерации": 0,
     "Потрачено": 0.0
+  },
+  {
+    "id": "131134331",
+    "Название": "Middle Prompt Engineer",
+    "От": null,
+    "До": null,
+    "Валюта": null,
+    "Описание": "Компания Emphasoft занимается заказной разработкой IT решений для наших партнеров с западного рынка. Мы специализируемся на разработке web-приложений для стартапов на различной стадии.\nПроект - в сфере телекоммуникаций.\nОбязанности:\nПроектирование и оптимизация промптов для LLM-моделей (GPT, YandexGPT, Salut и др.).\nРазработка и настройка сценариев взаимодействия с LLM, включая multi-turn диалоги.\nРабота с RAG-архитектурой и контекстным окружением для повышения релевантности ответов.\nСоздание и развитие мультиагентных систем на базе ReACT.\nРазработка шаблонов промптов и подготовка документации и инструкций для пользователей и внутренних команд.\nВнедрение механизмов повышения качества ответов (few-shot, chain-of-thought, self-correction).\nМониторинг и анализ метрик качества работы моделей (precision, relevance и др.).\nПроведение тестирования и разработка автотестов для LLM-сценариев.\nСбор, анализ и использование обратной связи пользователей для улучшения сценариев.\nРазработка и настройка отраслевых сценариев (микробизнес, HoReCa, ритейл).\nУчет ограничений free-tier LLM (лимиты, безопасность, ограничения моделей).\nТребования:\nОпыт разработки и оптимизации промптов для LLM.\nПонимание принципов работы RAG, контекстных систем и диалоговых сценариев.\nОпыт работы с multi-turn диалогами.\nПрактический опыт или понимание мультиагентных архитектур (ReACT).\nНавыки документирования решений и создания инструкций.\nБазовое понимание взаимодействия frontend и backend систем.\nОпыт анализа метрик качества работы моделей.\nПонимание ограничений и особенностей использования LLM и free-tier моделей.\nОпыт работы с тестированием LLM-сценариев будет преимуществом.\nУсловия:\nB2B Контракт, ИП.\nГибкий график\nКорпоративные курсы английского\n3 оплачиваемых sick day в год\nПрофессиональный рост и развитие в сильной команде\nСовременный стек и выстроенные процессы\nДолгосрочное сотрудничество",
+    "Кратко": "Ошибка: Error code: 400 - {'error': {'message': 'Your subscription end, your account are freezed until renew (51312321401)', 'code': 400}}",
+    "Компания": "Emphasoft",
+    "IT": "Нет",
+    "Опубликовано": "2026-03-11T15:38:22+0300",
+    "Ссылка": "https://hh.ru/vacancy/131134331",
+    "Отправлено": true,
+    "Вход_слов": 293,
+    "Вход_токенов": 0,
+    "Выход_токенов": 0,
+    "Время_генерации": 0,
+    "Потрачено": 0.0
+  },
+  {
+    "id": "131132021",
+    "Название": "Fullstack Engineer on AI projects/platforms",
+    "От": 10,
+    "До": 14,
+    "Валюта": "USD",
+    "Описание": "About us. We’re a California-based product company shipping web products at scale. We’re looking for a hands-on Frontend Engineer to build fast, reliable, and beautiful user experiences.\nCulture: outcome > process, we care about results and a “get the job done” mindset.\nWhat you'll do\n- Build features end-to-end: React UI → Express/FastAPI API → MCP services → databases.\n- Design and develop MCP servers (Model Context Protocol) in Python — the core tool layer of the platform.\n- Work with LLM integrations (Claude, GPT, Gemini) via LangChain: agents, chains, tool calling, SSE streaming.\n- Implement and maintain authentication and authorization systems: SSO (SAML, OpenID Connect), OAuth 2.0 providers (Google, GitHub, Discord, Apple), LDAP integration.\n- Design and enforce role-based access control (RBAC) policies — user roles, permission scoping, resource-level access across the platform.\n- Harden application security: input sanitization, rate limiting, CORS policies, session management, JWT lifecycle, and secrets handling.\n- Maintain and extend the component system built on React + Radix UI + Tailwind — forms, chat interfaces, markdown rendering, drag-and-drop.\n- Optimize data workflows: vector search (Milvus), analytics (ClickHouse), caching (Redis), persistence (MongoDB).\n- Containerize services and maintain Docker Compose orchestration across 15+ microservices.\n- Integrate external systems — Jira, Confluence, Bitbucket, Akamai, Ansible — via MCP and REST APIs.\n- Write tests (Jest, Playwright, Pytest), participate in code reviews, and uphold codebase quality.\nWhat you bring\n- 3+ years of production experience; strong React + TypeScript.\n- Backend experience with Node.js/Express — middleware, auth (JWT, OAuth, SAML), session management.\n- Solid understanding of authentication protocols: OAuth 2.0 flows, SAML assertions, OpenID Connect, LDAP/AD binding.\n- Experience designing RBAC or ABAC systems — defining roles, permissions, policy enforcement at API and UI layers.\n- Awareness of OWASP Top 10; practical experience securing web applications (XSS prevention, CSRF, injection attacks, secure cookie handling).\n- Python at a service-building level: FastAPI, Pydantic, async/await.\n- Hands-on work with MongoDB (Mongoose/Motor), Redis, and at least one relational DB (MySQL/PostgreSQL).\n- Practical Docker and Docker Compose skills — not just running containers, but writing Dockerfiles and debugging multi-service environments.\n- Experience with REST APIs and SSE (Server-Sent Events); understanding of streaming data patterns.\n- Testing discipline: Jest, Testing Library, Playwright or equivalents.\n- Clean Git workflow: feature branches, PR reviews, meaningful commits.\nNice to have\n- Experience with LLM APIs (Anthropic, OpenAI, Google) — prompt engineering, token management, streaming.\n- Familiarity with Model Context Protocol (MCP) or willingness to ramp up quickly.\n- LangChain / LangGraph experience — agentic architectures, orchestration.\n- Work with vector databases (Milvus, Pinecone, Weaviate) and embeddings.\n- Experience integrating enterprise identity providers (Okta, Azure AD, Keycloak) or setting up SSO for multi-tenant environments.\n- Audit logging and compliance awareness — tracking user actions, access logs, data retention policies.\n- Knowledge of LibreChat, Open WebUI, or similar self-hosted LLM platforms.\n- ClickHouse or other columnar/analytical databases.\n- Integrations with Atlassian (Jira/Confluence API), Akamai, Ansible.\n- Tailwind CSS, Radix UI, shadcn/ui — design system experience.\n- Atomic state management: Jotai, Recoil, or Zustand.\nWhy join\n- Direct product impact: you make the architectural decisions, not a chain of approvals.\n- AI-first environment: daily work with LLMs — not as hype, but as the core of the platform.\n- Company-paid AI tool subscriptions for work and experimentation.\n- Paid IDEs and tooling: JetBrains, extensions, linters, test frameworks.\n- Learning budget: courses, certifications, conferences.\n- Engineering culture where code reviews, tests, and documentation are the standard — not a formality.\nHow to apply\nSend your CV in PDF IN ENGLISH and links (GitHub/portfolio) plus a short note on a feature you shipped that moved a key metric.\n*ДЛЯ ЗАКЛЮЧЕНИЯ КОНТРАКТА НУЖНО ИМЕТЬ ИП РЕСПУБЛИКИ КАЗАХСТАН и СЧЕТ В БАНКЕ ТАК ЖЕ РК\n*В СОПРОВОДИТЕЛЬНОМ ПИСЬМЕ УКАЗАТЬ НЕ НИЖЕ КОТОРОГО ВЫ ГОТОВЫ RATE $ PER 1 HOUR\n*РАБОТОДАТЕЛЬ НЕ РАССМАТРИВАЕТ НИКАКИХ ВОЗМОЖНЫХ СЛУЧАЕВ ПАРТАЙМА, ВЫ МОЖЕТЕ РАБОТАТЬ ТОЛЬКО С НАМИ",
+    "Кратко": "Ошибка: Error code: 400 - {'error': {'message': 'Your subscription end, your account are freezed until renew (51312321401)', 'code': 400}}",
+    "Компания": "devs",
+    "IT": "Нет",
+    "Опубликовано": "2026-03-11T15:02:17+0300",
+    "Ссылка": "https://hh.ru/vacancy/131132021",
+    "Отправлено": true,
+    "Вход_слов": 697,
+    "Вход_токенов": 0,
+    "Выход_токенов": 0,
+    "Время_генерации": 0,
+    "Потрачено": 0.0
   }
 ]
