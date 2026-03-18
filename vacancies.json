@@ -9061,5 +9061,24 @@
     "Выход_токенов": 0,
     "Время_генерации": 0,
     "Потрачено": 0.0
+  },
+  {
+    "id": "131340595",
+    "Название": "QA Engineer",
+    "От": null,
+    "До": null,
+    "Валюта": null,
+    "Описание": "The Open Platform (TOP) is the leading tech company developing Web3 innovations in Telegram. TOP is fueling the Telegram economy through both foundational infrastructure and consumer-facing apps. By integrating blockchain technology into day-to-day digital activities, TOP is building a seamless, scalable platform designed for a billion users — accelerating the mass adoption of crypto.\nTOP provides a powerful toolkit of funding, expertise, and technology resources, streamlining access to critical tools like wallets, developer resources, SDKs, APIs, and marketplaces. TOP also develops and supports leading ecosystem products including the Wallet in Telegram, Tonkeeper, STON.fi, Getgems, Tribute, and more.\nNow we are seeking a Manual QA Engineer to join our team.\nResponsibilities:\nConduct manual testing of games and related features to ensure correct functionality and stability.\nDevelop and maintain test cases and checklists, as well as prepare the necessary test data.\nIdentify, document, and track bugs, ensuring proper follow-up until resolution.\nMaintain and update test documentation to keep it accurate and up to date.\nCollaborate closely with the development team to resolve issues promptly and continuously improve product quality.\nRequirements:\nMore than 2 years of experience in QA, including testing of web services and mobile applications.\nExperience in backend testing and working with SQL databases.\nSolid understanding of REST APIs and experience working with WebSocket.\nBasic proficiency in Python.\nHands-on experience with DevTools, traffic analysis tools, and logging systems.\nExperience testing gaming applications will be considered an advantage.",
+    "Кратко": "Ошибка: Error code: 400 - {'error': {'message': 'Your subscription end, your account are freezed until renew (51312321401)', 'code': 400}}",
+    "Компания": "The Open Platform",
+    "IT": "Нет",
+    "Опубликовано": "2026-03-18T12:36:44+0300",
+    "Ссылка": "https://hh.ru/vacancy/131340595",
+    "Отправлено": true,
+    "Вход_слов": 319,
+    "Вход_токенов": 0,
+    "Выход_токенов": 0,
+    "Время_генерации": 0,
+    "Потрачено": 0.0
   }
 ]
