@@ -25,15 +25,6 @@ jobs:
 
     - name: Install dependencies
       run: |
-        sudo apt-get update
-        sudo apt-get install -y wget curl unzip
-        curl -sSL https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -o google-chrome.deb
-        sudo dpkg -i google-chrome.deb
-        sudo apt --fix-broken install
-        wget https://github.com/jsnjack/chromedriver/releases/download/v143.0.7499.192/chromedriver-linux64.zip
-        unzip chromedriver-linux64.zip
-        sudo mv chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
-        sudo chmod +x /usr/local/bin/chromedriver
         pip install -r requirements.txt
 
     - name: Run script
