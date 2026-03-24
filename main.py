@@ -128,7 +128,7 @@ def update_vacancies_list(item, filename):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 def llm_prompting(token, model, temperature, system, prompt):
-    client = OpenAI(base_url = "https://api.vsegpt.ru/v1", api_key = token)
+    client = OpenAI(base_url = "https://openrouter.ai/api/v1", api_key = token)
 
     try:
         start_time = time.perf_counter()
@@ -231,7 +231,7 @@ TG_BOT_TOKEN = os.getenv('TG_BOT_TOKEN')
 
 llm_settings = dict(api_key = LLM_API_KEY,
                     system_message = "Ты - большая языковая модель, личный помощник. Отвечай на вопросы пользователя на русском языке и точно по запросу.",
-                    model = 'qwen/qwen3-next-80b-a3b',
+                    model = 'nvidia/nemotron-3-super-120b-a12b:free',
                     input_cost = 0.022,
                     output_cost = 0.22)
 
