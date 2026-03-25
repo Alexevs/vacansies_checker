@@ -246,7 +246,7 @@ TG_BOT_TOKEN = os.getenv('TG_BOT_TOKEN')
 
 llm_settings = dict(api_key = LLM_API_KEY,
                     system_message = "Ты - большая языковая модель, личный помощник. Отвечай на вопросы пользователя на русском языке и точно по запросу.",
-                    model = 'nvidia/nemotron-3-super-120b-a12b:free',
+                    model = 'arcee-ai/trinity-large-preview:free',
                     input_cost = 0.0,
                     output_cost = 0.0)
 
