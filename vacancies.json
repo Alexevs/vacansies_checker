@@ -9764,5 +9764,43 @@
     "Выход_токенов": 1122,
     "Время_генерации": 43736,
     "Потрачено": 0.0
+  },
+  {
+    "id": "131537969",
+    "Название": "Android Developer (Middle/Senior)",
+    "От": null,
+    "До": null,
+    "Валюта": null,
+    "Описание": "Are you passionate about your work and want to pursue your dreams?\nJoin the ZiMAD team, and let’s collaborate to create exceptional games together!\nZiMAD is a US mobile game publisher and developer that has been at the forefront of the gaming industry since 2009. We are a dynamic multinational team, speaking 15 languages and living in 63 cities across 17 countries. With an impressive portfolio of world-class free-to-play projects, including titles like Magic Jigsaw Puzzles, Puzzle Villa, Art of Puzzles, Dominoes, and many others, we constantly push boundaries and believe that games can be more than just entertainment.\nWe’ve forged partnerships with internationally renowned IPs (like Disney, Nickelodeon, LIFE, Sony Pictures etc.) and strive to develop games that sharpen mental well-being and deliver remarkable user experiences.\nWe’re looking for an experienced Android Developer to join our team and help build and maintain our mobile applications. This is a fully remote, full-time position. Join our dynamic team and make a direct impact on real projects.\nResponsibilities:\nDeveloping new features and modules for Android applications\nMaintaining and refactoring existing code\nIntegrating with the backend (API, databases)\nOptimizing UI and animation performance\nParticipating in code reviews and team meetings (Agile/Scrum)\nRequirements:\nKnowledge of OOP and software design principles\nUnderstanding of MVP and MVVM architectures (MVI is welcome)\nConfident proficiency in Java/Kotlin, Android SDK, Jetpack Compose, Git, Coroutines, RxJava, and Dagger2\nExperience in creating custom UI components\nSkills in working with animations: ObjectAnimator, Transition API\nExperience with SQL and Room (or equivalents)\nAbility to work in a team (communication, code review)\nHands-on experience using LLM-based tools (e.g., Codex, Cursor, GitHub Copilot, etc.) in day-to-day development\nBasic understanding of LLM limitations and the ability to structure workflows with them in mind\nAbility to write precise and reproducible prompts for repeatable engineering tasks\nAbility to apply GenAI in code refactoring and enhancement (including Java/Kotlin), with a clear explanation of proposed changes and their impact on the system\nNice to Have:\nExperience in team development (Git Flow, CI/CD)\nWork with OpenGL and game engines (AndEngine or Unity)\nPublications of ready-made applications in Google Play (please ensure all relevant links are included in your resume)\nUsing AI for legacy code analysis (e.g., detecting duplication, simplifying logic)\nApplying AI when investigating bugs, logs, and crash reports\nBasic understanding of approaches like semantic search or RAG\nExperience introducing simple AI practices into team workflows (e.g., prompt templates, basic guidelines)\nWe offer:\nOpportunity to work for ZiMAD, a US company with a diverse portfolio of global free-to-play (F2P) projects with a multi-million monthly user base\nInvolvement in the entire product development cycle\nCareer growth prospects within an international company\nRemote work opportunities\nFlexible working schedule\nBonuses based on the achievement of KPIs and financial results of projects\nPaid conferences, training (including language courses), and workshops\nOpportunity to have sessions with psychologists to improve your mental health and well-being\nParticipation in charity projects",
+    "Кратко": "*Кому подойдёт эта вакансия*: специалистам с опытом Android‑разработки и базовыми навыками работы с LLM и промпт‑инжинирингом.  \n*Почему она оказалась в выдаче по тематическому запросу*: потому что в описании упоминаются навыки написания промптов и использования ИИ‑инструментов в разработке.",
+    "Компания": "ZiMAD",
+    "IT": "Нет",
+    "Опубликовано": "2026-03-25T12:26:50+0300",
+    "Ссылка": "https://hh.ru/vacancy/131537969",
+    "Отправлено": true,
+    "Вход_слов": 540,
+    "Вход_токенов": 1005,
+    "Выход_токенов": 631,
+    "Время_генерации": 5846,
+    "Потрачено": 0.0
+  },
+  {
+    "id": "130831060",
+    "Название": "AI-креатор/ ИИ-креатор/ AI Creator",
+    "От": null,
+    "До": null,
+    "Валюта": null,
+    "Описание": "Задачи, над которыми предстоит работать:\nРазработка и реализация контент-стратегии с фокусом на короткие вирусные видео;\nПроизводство до 15 AI-роликов в месяц (Shorts / VK-клипы) с измеримым результатом;\nМониторинг трендов и запуск ситуативного контента в течение 24 часов;\nВедение соцсетей: контент-план, публикации, работа с комментариями;\nФормирование гипотез, тестирование и масштабирование успешных форматов;\nЕженедельная аналитика и работа с метриками (ER, CTR, удержание);\nСоблюдение tone of voice и репутационной безопасности бренда.\nНаш будущий коллега имеет:\nОпыт в Prompt engineering и сборе AI-пайплайна (image → video → voice → монтаж);\nНавыки продвинутого пользования AI-инструментов (Midjourney, DALL-E, Runway и аналоги), опыт видеомонтажа и адаптации под разные платформы;\nПонимание механик TikTok / Reels / Shorts / VK;\nНавыки копирайтинга и аналитики.\nУ нас гарантированы:\nИнтересные задачи и открытые возможности для карьерного роста;\nОформление по договору ГПХ;\nСвоевременные выплаты;\nУдаленный формат работы.",
+    "Кратко": "*1. Требования, навыки, опыт*\n    - промт-инжиниринг: опыт создания и оптимизации промптов для генерации изображений, видео и голоса;\n    - работа c ML: понимание работы генеративных моделей и умение интегрировать их в AI‑пайплайн;\n    - программирование: базовые навыки работы с API и скриптами для автоматизации процессов;\n    - soft-skills: аналитическое мышление, креативность, коммуникабельность, умение работать в условиях быстрого темпа;\n    - прочее: опыт видеомонтажа, адаптации контента под форматы Shorts, Reels, TikTok и VK, навыки копирайтинга и аналитики.\n*2. Обязанности и ответственность*:\n    - разработка и реализация контент‑стратегии с акцентом на короткие вирусные видео;\n    - производство до 15 AI‑роликов в месяц (изображение → видео → голос → монтаж) с измеримыми результатами;\n    - мониторинг трендов и запуск ситуативного контента в течение 24 часов;\n    - ведение соцсетей: контент‑план, публикации, работа с комментариями, соблюдение tone of voice и репутационной безопасности бренда;\n    - формирование гипотез, тестирование и масштабирование успешных форматов;\n    - еженедельная аналитика и работа с метриками (ER, CTR, удержание).",
+    "Компания": "ГК Черноголовка",
+    "IT": "Нет",
+    "Опубликовано": "2026-03-25T11:40:28+0300",
+    "Ссылка": "https://hh.ru/vacancy/130831060",
+    "Отправлено": true,
+    "Вход_слов": 216,
+    "Вход_токенов": 645,
+    "Выход_токенов": 1545,
+    "Время_генерации": 79734,
+    "Потрачено": 0.0
   }
 ]
