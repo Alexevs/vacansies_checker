@@ -4,43 +4,82 @@ import os
 from dotenv import load_dotenv
 import requests
 import json
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
-from datetime import date, datetime
+import re
+from datetime import datetime
+from html import unescape
+from html.parser import HTMLParser
 import time
 from openai import OpenAI
 import telebot
 
 # functions
 
+HH_API_BASE_URL = 'https://api.hh.ru'
+DEFAULT_HH_API_USER_AGENT = 'VacanciesBot/1.0 (support@vacancies-bot.dev)'
+HH_API_TIMEOUT = 20
+
+
+class HTMLTextExtractor(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.parts = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag in {'p', 'div', 'br', 'li', 'ul', 'ol'}:
+            self.parts.append('\n')
+
+    def handle_endtag(self, tag):
+        if tag in {'p', 'div', 'li', 'ul', 'ol'}:
+            self.parts.append('\n')
+
+    def handle_data(self, data):
+        self.parts.append(data)
+
+    def get_text(self):
+        raw_text = ''.join(self.parts)
+        cleaned_text = re.sub(r'\n{3,}', '\n\n', raw_text)
+        return '\n'.join(line.strip() for line in cleaned_text.splitlines() if line.strip())
+
+
+def hh_get(endpoint, params=None):
+    response = requests.get(
+        f'{HH_API_BASE_URL}{endpoint}',
+        params=params,
+        headers={'User-Agent': os.getenv('HH_API_USER_AGENT', DEFAULT_HH_API_USER_AGENT)},
+        timeout=HH_API_TIMEOUT,
+    )
+    response.raise_for_status()
+    return response.json()
+
+
+def html_to_text(html_content):
+    if not html_content:
+        return ''
+
+    parser = HTMLTextExtractor()
+    parser.feed(unescape(html_content))
+    parser.close()
+    return parser.get_text()
+
+
 def get_hh_vacancies(word):
     vacancies_list = {'items': []}
 
-    url = 'https://api.hh.ru/vacancies?'
     params_dict = {
         'text': word,
-        'per_page': '100',
+        'per_page': 100,
         'schedule': 'fullDay',
         'work_format': 'REMOTE'
     }
 
-    query_params = '&'.join(f"{key}={value}" for key, value in params_dict.items())
-    query = url + query_params
-
-    headers = {'User-Agent': 'api-test-agent'}
-    response = requests.get(query, headers=headers, verify=False)
-    first_page = response.json()
+    first_page = hh_get('/vacancies', params=params_dict)
     vacancies_list['items'] = first_page['items']
     pages = first_page['pages']
 
     if pages > 1:
         for i in range(1, pages):
-            page_query = f"{query}&page={i}"
-            response = requests.get(page_query, headers=headers, verify=False)
-            page_data = response.json()
+            page_params = params_dict | {'page': i}
+            page_data = hh_get('/vacancies', params=page_params)
             vacancies_list['items'].extend(page_data['items'])
 
     return vacancies_list
@@ -63,25 +102,17 @@ def update_vacancies_list(item, filename):
             data = json.load(f)
     except FileNotFoundError:
         data = []
-    
-    options = Options()
-    options.add_argument("--headless")  # Для работы без UI
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    # driver = webdriver.Chrome(options=options)
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=options)
 
-    # Добавляем новые
-    employer = item.get('employer', {})
+    vacancy_details = hh_get(f"/vacancies/{item['id']}")
+    employer = vacancy_details.get('employer', {})
     accredited_it_employer = employer.get('accredited_it_employer')
     if accredited_it_employer:
         IT = 'Да'
     else:
         IT = 'Нет'
 
-    salary = item.get('salary', {})
-    if salary != None:
+    salary = vacancy_details.get('salary')
+    if salary is not None:
         salary_from = salary.get('from')
         salary_to = salary.get('to')
         salary_cur = salary.get('currency')
@@ -90,38 +121,22 @@ def update_vacancies_list(item, filename):
         salary_to = None
         salary_cur = None
 
-    # snippet = item.get('snippet', {}) # неинформативно, оставим на память
-
-    # Переходим на страницу
-    vacancy_url = item['alternate_url']
-    try:
-        driver.get(vacancy_url)
-        # Находим элемент по атрибуту data-qa
-        element = driver.find_element(By.XPATH, 
-            "//*[@data-qa='vacancy-description']")
-        vacancy_description = element.text
-    except Exception as e:
-        vacancy_description = f"Ошибка: {e}"
+    vacancy_description = html_to_text(vacancy_details.get('description'))
     
     data.append({
-        'id': item['id'],
-        'Название': item['name'],
+        'id': vacancy_details['id'],
+        'Название': vacancy_details['name'],
         'От': salary_from,
         'До': salary_to,
         'Валюта': salary_cur,
         'Описание': vacancy_description,
-        # 'Требования': snippet.get('requirement'), # неинформативно, оставим на память
-        # 'Ответственность': snippet.get('responsibility'), # неинформативно, оставим на память
         'Кратко': False,
         'Компания': employer.get('name'),
         'IT': IT,
-        'Опубликовано': item['published_at'],
-        'Ссылка': vacancy_url,
+        'Опубликовано': vacancy_details['published_at'],
+        'Ссылка': vacancy_details['alternate_url'],
         'Отправлено': False
     })
-
-    # Закрываем браузер
-    driver.quit()
 
     # Сохраняем всё
     with open(filename, 'w', encoding='utf-8') as f:
@@ -210,7 +225,7 @@ def send_new_vacancies(data_filename, bot_token, channel_name):
                     '',
                     f'_{item["Компания"]}, IT: {item["IT"]}_',
                     '',
-                    f'Траты: {round(item['Потрачено'],2)} ₽ | {item['Время_генерации']} мс | [Поддержать](https://tips.yandex.ru/guest/payment/3454449)'
+                    f'Траты: {round(item["Потрачено"],2)} ₽ | {item["Время_генерации"]} мс | [Поддержать](https://tips.yandex.ru/guest/payment/3454449)'
                     ]
 
             message = '\n'.join(row for row in rows)
