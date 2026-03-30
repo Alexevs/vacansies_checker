@@ -10106,5 +10106,24 @@
     "Выход_токенов": 1037,
     "Время_генерации": 54966,
     "Потрачено": 0.0
+  },
+  {
+    "id": "131652091",
+    "Название": "Technical Interviewer (BA/SA)",
+    "От": null,
+    "До": null,
+    "Валюта": null,
+    "Описание": "The Brightman recruitment аgency is looking for a Technical Interviewer (BA/SA) for its large client.\nThe customer is an international IT company specializing in software development, mobile applications, and web development for various industries. The company offers a wide range of services, including custom software development, IT consulting, project management, DevOps, support, and maintenance.\nResponsibilities:\nConducting technical interviews with Middle and Senior Business Analyst and System Analyst candidates.\nEvaluating candidates strictly according to the established interview matrix.\nCompleting feedback forms after each interview.\nAdhering to feedback procedures and timelines.\nCommunicating with hiring stakeholders in a dedicated chat.\nResponding promptly to interview requests.\nRequirements:\nExperience as a BA/SA for 4 years.\nStrong competencies in business analysis and system analysis: requirements management, documentation, prototyping, stakeholder alignment.\nUnderstanding of development methodologies (Agile, Scrum, Kanban).\nExperience with analysis and documentation tools (Jira, Confluence, Swagger, Draw.io, BPMN, UML).\nExperience conducting technical interviews.\nWillingness to work with flexible and irregular scheduling.\nResponsibility, ability to accurately complete assessment matrices, and meet feedback deadlines.\nEnglish proficiency at Intermediate level or higher.\nReasons to join us:\nMentoring and adaptation systems for new employees to integrate comfortably into the team and work.\nA cool young team of like-minded people communicating informally.\nYou'll have a stable and competitive salary and an extensive benefits package.\nAccess to the best educational platforms, seminars, and practices.\nMedical insurance with dental coverage.\nCompensation for the cost of gym memberships.",
+    "Кратко": "*Кому подойдёт эта вакансия*: специалистам с опытом бизнес‑ и системного анализа, *Почему она оказалась в выдаче по тематическому запросу*: из‑за упоминания технических интервью и работы в IT‑компании, что может косвенно пересекаться с темами prompt‑инжиниринга и AI‑агентов.",
+    "Компания": "Брайт Эйдженси",
+    "IT": "Нет",
+    "Опубликовано": "2026-03-30T10:12:34+0300",
+    "Ссылка": "https://hh.ru/vacancy/131652091",
+    "Отправлено": true,
+    "Вход_слов": 327,
+    "Вход_токенов": 692,
+    "Выход_токенов": 530,
+    "Время_генерации": 46398,
+    "Потрачено": 0.0
   }
 ]
