@@ -11379,5 +11379,43 @@
     "Выход_токенов": 1357,
     "Время_генерации": 78340,
     "Потрачено": 0.0
+  },
+  {
+    "id": "131960154",
+    "Название": "AI / Conversational Developer (чат- и voice-боты)",
+    "От": null,
+    "До": null,
+    "Валюта": null,
+    "Описание": "Чем предстоит заниматься:\n— Разрабатывать и запускать AI чат- и voice-ботов\n— Проектировать диалоговые сценарии и логику общения (conversation design)\n— Интегрировать LLM-решения и RAG (работа с базами знаний)\n— Автоматизировать процессы через low-code инструменты (например, n8n)\n— Настраивать интеграции с CRM, биллингом и внешними API\n— Оптимизировать пользовательский опыт (UX) и уровень автоматизации\n— Работать с CX-метриками: CSAT, FCR, automation rate и улучшать их\nТребования:\n— Уверенные знания Python и/или JavaScript\n— Практический опыт работы с LLM и prompt engineering\n— Опыт разработки end-to-end conversational систем\n— Понимание NLP и обработки интентов\n— Опыт интеграции API и backend-сервисов\n— Опыт работы с инструментами автоматизации (n8n / Zapier / Make)\n— Понимание процессов customer support\nБудет плюсом:\n— Опыт разработки voice-ботов (STT / TTS)\n— Работа с RAG и построением баз знаний\n— Опыт в телекоме / MVNO / eSIM\n— Опыт разработки мультиязычных ботов\nМы предлагаем:\nКонкурентная зарплата (обсуждаем по опыту и уровню).\nХорошая техника и всё необходимое для работы.\nУдобный график и адекватные рабочие процессы без лишней бюрократии.\nМы обеспечиваем непрерывный процесс развития профессиональных компетенций и даем возможность карьерного роста внутри компании;\nУ нас интересные задачи, дружественная атмосфера и уникальная корпоративная культура. Все что вас будет окружать в Humans, сделано по-человечески.",
+    "Кратко": "*1. Требования, навыки, опыт*  \n    - промт-инжиниринг: практический опыт работы с LLM и prompt engineering  \n    - работа c ML: понимание NLP и обработки интентов, опыт работы с LLM  \n    - программирование: уверенные знания Python и/или JavaScript, опыт интеграции API и backend‑сервисов  \n    - soft‑skills: понимание процессов customer support, коммуникабельность, умение работать в команде  \n    - прочее: опыт работы с low‑code инструментами (n8n, Zapier, Make), опыт разработки end‑to‑end conversational систем  \n*2. Обязанности и ответственность*:  \n    - Разработка и запуск AI чат‑ и voice‑ботов  \n    - Проектирование диалоговых сценариев и логики общения (conversation design)  \n    - Интеграция LLM‑решений и RAG (работа с базами знаний)  \n    - Автоматизация процессов через low‑code инструменты (n8n и др.)  \n    - Настройка интеграций с CRM, биллингом и внешними API  \n    - Оптимизация UX и уровня автоматизации, работа с CX‑метриками (CSAT, FCR, automation rate)",
+    "Компания": "HUMANS DEALER",
+    "IT": "Нет",
+    "Опубликовано": "2026-04-08T15:57:39+0300",
+    "Ссылка": "https://hh.ru/vacancy/131960154",
+    "Отправлено": true,
+    "Вход_слов": 294,
+    "Вход_токенов": 807,
+    "Выход_токенов": 835,
+    "Время_генерации": 34864,
+    "Потрачено": 0.0
+  },
+  {
+    "id": "131960105",
+    "Название": "Senior Python Engineer (AI & Automation)",
+    "От": null,
+    "До": null,
+    "Валюта": null,
+    "Описание": "At Syberry, we believe that great software starts with a simple principle: being a strategic partner who helps clients achieve their goals.\nWe are a global team that builds custom software for industries ranging from finance to healthcare. Our mission is to raise the bar for the entire software industry, thas's why we invest in strong engineering practices, automation, and clear processes to make our work predictable, efficient, and meaningful.\nJoin us as a Senior Python Engineer to drive cutting-edge solutions while growing in a collaborative, forward-thinking environment.\nThe Project\nDaVinci is a product that aims to make software engineering teams 10 times more efficient than recently formed startup teams. Already, 20+ teams and clients use the product. Our immediate goal is to deliver 96% of MVPs within 6 months after the initial client contact. We also aim to deliver the first unique features to production just 4 days after project launch.\nWe’re shipping a practical AI agent that automates key recruiting workflows - planning tasks and executing permitted actions via APIs, so teams spend less time on manual data entry and status-chasing, and more time with candidates. After that, we plan to expand the process for the other company's parts.\nWhy Join Us?\nImpactful Work: Be part of a team that is transforming the way software is developed and delivered\nCareer Growth: Work in an environment that values learning, mentorship, and professional development\nCutting-Edge Technology: Dive into an advanced tech stack and innovate at the forefront of software engineering\nCollaborative Culture: Join a supportive team that values creativity, inclusivity, and collaboration\nResponsibilities\nDesign architecture of AI agent and it's interaction with other software components\nDesign and ship AI features end-to-end: prompt logic, tool/function schemas, input/output validation, and integration with APIs/services\nBuild reliable evaluation pipelines (golden sets, automatic metrics, human review loops) and run experiments to improve quality, cost, and latency\nAdd observability: telemetry for prompts/versions, error taxonomies, and drift detection\nCollaborate with backend teams to define clear data contracts and stable interfaces\nWrite concise design docs\nRequirements\n5+ years in software & data engineering, including 1+ years shipping LLM-powered systems at scale; leads designs, sets standards\nStrong Python and data wrangling (SQL, Pandas)\nExperience with cloud (AWS or similar)\nSolid knowledge of the Test Pyramid and TDD\nStrong skills in algorithms and design\nExperience in implementing new practices in engineering teams\nB1+ English level",
+    "Кратко": "*1. Требования, навыки, опыт*  \n    - промт-инжиниринг: опыт создания промпт‑логики для LLM, работа с tool/function schemas, оценка и улучшение качества промптов  \n    - работа c ML: опыт доставки LLM‑powered систем в продакшн, построение оценочных пайплайнов (golden sets, автоматические метрики, человеческий review)  \n    - программирование: 5+ лет Python, SQL, Pandas, опыт работы с облаком (AWS или аналогичным), знание TDD, алгоритмов и дизайна систем  \n    - soft‑skills: коммуникация с бекенд‑командами, написание concise дизайн‑документов, менторство и командная работа  \n    - прочее: уровень английского B1+, опыт внедрения новых инженерных практик в команды  \n\n*2. Обязанности и ответственность*:  \n    - проектирование архитектуры AI‑агента и его взаимодействия с другими программными компонентами  \n    - end‑to‑end разработка AI‑фич: промпт‑логика, схемы инструментов, валидация ввода/вывода, интеграция с API/сервисами  \n    - создание надежных оценочных пайплайнов (golden sets, автоматические метрики, человеческий review loops) и проведение экспериментов для улучшения качества, стоимости и латентности  \n    - добавление наблюдаемости: телеметрия промптов/версий, таксономия ошибок, обнаружение дрифта  \n    - взаимодействие с бекенд‑командами для определения четких контрактов данных и стабильных интерфейсов  \n    - написание кратких дизайн‑документов и обеспечение прозрачности решений.",
+    "Компания": "Syberry CIS",
+    "IT": "Нет",
+    "Опубликовано": "2026-04-08T15:56:37+0300",
+    "Ссылка": "https://hh.ru/vacancy/131960105",
+    "Отправлено": true,
+    "Вход_слов": 487,
+    "Вход_токенов": 882,
+    "Выход_токенов": 935,
+    "Время_генерации": 55278,
+    "Потрачено": 0.0
   }
 ]
