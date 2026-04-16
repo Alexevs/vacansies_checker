@@ -12177,5 +12177,43 @@
     "Выход_токенов": 692,
     "Время_генерации": 10693,
     "Потрачено": 0.0
+  },
+  {
+    "id": "132191418",
+    "Название": "QA Engineer Automation Expert (python, AI)",
+    "От": null,
+    "До": null,
+    "Валюта": null,
+    "Описание": "Приглашаем в команду QA Engineer Automation Expert\nПроект финансовый\nThe Mission\nAs our first QA hire, we are looking for the final gatekeeper of our fintech ecosystem. Its not only about finding bugs; its about building the automated machinery that prevents them. This role is a hybrid of Automation Engineering, Backend Development, and Release Management. This role will own the \"Green Light\" for every production deployment, ensuring our users' financial data remains secure and our uptime remains absolute.\nKey Responsibilities\nArchitect the Test Suite: Build a 100% automated testing framework from the ground up (End-to-End, Integration, and API).\nUnit Testing: Assist developers and work directly within the codebase to write and maintain robust unit tests alongside the backend team.\nProduction Deployment & Monitoring: Own the CI/CD pipeline. Responsible for deploying functionality to production and conducting \"smoke tests\" to ensure post-deployment stability.\nAI-First Workflow: Use AI tools (Cursor and/or Claude and/or other) to accelerate test writing, generate edge-case scenarios, and debug complex system failures.\nRisk Mitigation: Define the \"Definition of Ready\" and \"Definition of Done\" for all financial features.\nThe Profile\nAI Native: An expert at prompting and using AI coding assistants to 10x output. Be able to explain how you use Claude or Cursor or other to optimize daily workflow.\nThe Architect Mindset: Don't believe in manual testing. If it can be done twice, it must be automated!\nTechnical Stack: Proficient in TypeScript/Playwright and Python/PyTest.\nDevOps Literacy: Experience with CI/CD tools (GitLab CI/CD or Jenkins) and cloud environments (Scaleway/AWS/Hetzner).\nFintech Precision: Understanding that in finance, a \"small bug\" can mean a million-dollar reconciliation error. Detail-oriented to the point of obsession.\nМЫ ПРЕДЛАГАЕМ:\nОфициальное оформление в стабильную и динамично развивающуюся ИТ-компанию EGAR;\nФормат работы: удаленный;\nГрафик работы с 9:00 до 18:00;\nКонкурентный уровень заработной платы, который мы готовы обсудить на собеседовании;\nПолноценную проектную команду с четким разделением ролей;\nОперативное решение организационных вопросов;\nВозможность профессионального роста (вертикального или горизонтального);\nВозможности обучения (курсы, сертификация);\nБонусы по реферальной программе, за успешную рекомендацию;\nДополнительно 4 дня в год по болезни без больничного листа (sick day);\nРасширенный пакет ДМС, включая стоматологию;\nСохранение баланса между работой и личной жизнью.",
+    "Кратко": "*Кому подойдёт эта вакансия*: специалистам по автоматизированному тестированию, владеющим AI‑ассистентами для ускорения написания тестов; *Почему она оказалась в выдаче по тематическому запросу*: потому что в вакансии подчеркивается использование AI‑промптинга и AI‑инструментов для тестирования.",
+    "Компания": "EGAR",
+    "IT": "Да",
+    "Опубликовано": "2026-04-16T10:15:58+0300",
+    "Ссылка": "https://hh.ru/vacancy/132191418",
+    "Отправлено": true,
+    "Вход_слов": 441,
+    "Вход_токенов": 976,
+    "Выход_токенов": 763,
+    "Время_генерации": 25759,
+    "Потрачено": 0.0
+  },
+  {
+    "id": "132186535",
+    "Название": "Промт-инженер (Prompt Engineer) LLM инженер / AI инженер",
+    "От": null,
+    "До": null,
+    "Валюта": null,
+    "Описание": "Детский образовательный проект \"Школа Шамиля Ахмадуллина\" в поисках Промт-инженера (Prompt Engineer).\nМы - центр когнитивного развития Шамиля Ахмадуллина. Онлайн школа существует с 2020 года. За это время более 100 тысяч детей прошли наши платные программы.\nСейчас одновременно в школе обучаются более 10 тысяч учеников.\nНаш эксперт - автор 120 книг по детскому развитию, которые проданы тиражом около 5 млн экземпляров.\nСейчас мы в поисках Промт-инженера (Prompt Engineer), который поможет нам внедрять ИИ в ускорение/автоматизацию различных бизнес-процессов.\nНаша цель — сделать ИИ полезным инструментом для сотрудников. Если ты умеешь «разговаривать» с нейросетями на одном языке — тебе к нам.\nОбязанности:\nРазрабатывать, тестировать и внедрять ассистентов и AI-агентов на базе LLM;\nНастраивать поведение LLM через системные/ролевые инструкции и примеры;\nТестировать качество (ручные прогоны и метрики), улучшать по логам и фидбеку, вести реестр промптов;\nТестирование и отладка разработанного решения (постоянное улучшение promt запросов; нахождение проблемных кейсов и корректировка promt'а, чтобы исправить их);\nВзаимодействие с руководителями процесса, в который встраиваем работу с ИИ для формирования общего образа результата работы;\nПостоянное обучение и развитие в области промт-инженеринга и связанных направлениях.\nТребования:\nопыт написания системных промтов для LLM/prompt engineering;\nумение создавать цепочки промптов для перевода и генерации ответов;\nнастройка поведение модели через промпты и системные инструкции;\nЧто предлагаем:\nУдалённую работу без привязки к рабочему месту;\nГрафик 5/2, с 9-00 до 18-00 быть на связи, в выходные Вы с семьей;\nОформление по договору;\nЗаработная плата обсуждается на собеседовании;\nВозможность работать над интересными и вызывающими проектами в области AI;\nДружную и заряженную команду специалистов в своем деле.\nОткликайтесь на вакансию и с откликом напишите результаты Вашей работы на последних местах, и мы пригласим Вас на собеседование.",
+    "Кратко": "Ошибка: 'NoneType' object is not subscriptable",
+    "Компания": "Детский центр Шамиля Ахмадуллина",
+    "IT": "Нет",
+    "Опубликовано": "2026-04-16T08:49:33+0300",
+    "Ссылка": "https://hh.ru/vacancy/132186535",
+    "Отправлено": true,
+    "Вход_слов": 361,
+    "Вход_токенов": 0,
+    "Выход_токенов": 0,
+    "Время_генерации": 0,
+    "Потрачено": 0.0
   }
 ]
